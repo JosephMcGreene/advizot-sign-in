@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-top: 65px;
+  font-weight: 400;
+}
+label {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+input {
+  transform: scale(4.2);
+  margin-left: 12px;
+}
+
+/* ===== FLEX PARENTS AND ITEMS ===== */
+
+.rating-scale {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ratings {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== CLASSES ===== */
+
+.center-text {
+  text-align: center;
+}
