@@ -16,22 +16,23 @@ h3 {
   margin-top: 65px;
   font-weight: 400;
 }
-label {
+label,
+input {
   font-size: 2.5rem;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 input {
-  transform: scale(4.2);
-  margin-left: 12px;
+  transform: scale(5.5);
 }
 
 /* ===== FLEX PARENTS AND ITEMS ===== */
 
 .rating-scale {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: space-around;
 }
 
 .ratings {
@@ -39,10 +40,16 @@ input {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+
+  margin: 18px 8%;
+  padding: 18px 8%;
+  border: solid black 2px;
 }
 
-/* ===== CLASSES ===== */
+/* ===== CLASSES/IDs ===== */
 
 .center-text {
   text-align: center;
 }
+
+/* ===== MEDIA QUERIES ===== */
