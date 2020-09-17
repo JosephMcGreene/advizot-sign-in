@@ -8,8 +8,32 @@ html {
 
 body {
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-table {
-  background-color: red;
+table,
+td,
+th {
+  border: solid black 1px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tbody th {
+  background-color: rgb(209, 209, 207);
+}
+
+.grey-background {
+  background-color: grey;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
 }
