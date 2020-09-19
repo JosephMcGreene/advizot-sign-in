@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
 h3 {
   font-size: 3rem;
   margin-top: 65px;
@@ -23,7 +27,7 @@ input {
   margin-left: 20px;
 }
 input {
-  transform: scale(5.5);
+  transform: scale(5);
 }
 
 /* ===== FLEX PARENTS AND ITEMS ===== */
